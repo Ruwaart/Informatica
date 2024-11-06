@@ -1,0 +1,50 @@
+/*kleuren*/
+:root {
+  --color1: #686868;
+  --color2: #464646;
+  --color3: #ff8000;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+/*de header*/
+header{
+  color: var(--color3);
+  background-color: var(--color2);
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+/*achtergrond veranderen en rand om header weg halen*/
+body{
+  background-color: var(--color1);
+  margin: 0;
+  padding: 0;
+}
+/*lijn onder links weghalen en kleur veranderen*/
+.indexLink{
+  text-decoration: none;
+  color: yellow;
+}
+/*lijn onder links terug brengen wanneer hover*/
+a:hover{text-decoration: underline}
+/*breete colommen*/
+td{
+  width: 46%;
+}
+#links{
+  background-color: var(--color2);
+  color: var(--color3);
+  margin-top: 15%; 
+  margin-left: 22%;
+  margin-right: 22%; 
+  padding: 0.5% 1.5%;
+  border-radius: 43px; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.link{
+  color: yellow;
+}
